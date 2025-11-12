@@ -8,6 +8,8 @@ class SmokeTest(unittest.TestCase):
 class TestSquare(unittest.TestCase):
     def test_root_of0(self):
         self.assertEqual(sq_num(0),0)
+        self.assertEqual(sq_num(4),2)
+        self.assertEqual(sq_num(9),3)
 
 if __name__ == "__main__":
     unittest.main()
