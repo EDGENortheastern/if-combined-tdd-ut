@@ -1,2 +1,2 @@
 def sq_num(n):
-    return 0
+    return n**0.5
